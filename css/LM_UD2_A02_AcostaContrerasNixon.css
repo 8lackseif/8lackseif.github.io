@@ -1,0 +1,163 @@
+body {
+      background-color:black;
+    }
+	
+
+#TituloP {
+
+    background-image: url('TT.jpg');
+	display:table;
+	width: 100%;
+	height: 300px;
+	margin: 0%;
+	
+
+}
+
+#TituloP1{
+	color:white ;
+    text-align:center;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: bungee Spice, 'Arial Narrow Bold', 'sans-serif';
+	font-size: 30px;
+}
+
+#Letra{
+	font-family: Bangers, 'Arial Narrow Bold', sans-serif;
+	color:#717D7E;
+	font-size:50px;
+}
+
+.ELEMENTO1{
+	width:80%;
+	text-align:center;
+	border: solid #91260b 2px;
+	margin:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.ELEMENTO2{
+	width:80%;
+	text-align:center;
+	border:solid #0768b8 2px;
+	margin:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.ELEMENTO3{
+	width:80%;
+	text-align:center;
+	border:solid #b97612 2px;
+	margin:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.ELEMENTO4{
+	width:80%;
+	text-align:center;
+	border:solid #4a0650 2px;
+	margin:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.ELEMENTO5{
+	width:80%;
+	text-align:center;
+	border:solid #0db640 2px;
+	margin:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.ELEMENTO6{
+	width:80%;
+	text-align:center;
+	border:solid #519c0b 2px;
+	margin:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.ELEMENTO7{
+	width:80%;
+	text-align:center;
+	border:solid #09dfee 2px;
+	margin:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.ELEMENTO8{
+	width:80%;
+	text-align:center;
+	border:solid #D4AF37 2px;
+	margin:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+
+.celda{
+
+	color: white;
+	text-align:center;
+	
+
+}
+
+.Titulo2{
+
+	color: #717D7E;
+	text-align:center;
+	font-family: Bangers, 'Arial Narrow Bold', sans-serif;
+	font-size:40px;
+	
+
+}
+
+#MENU{
+	text-align:center;
+	border:solid rgb(82, 78, 72) 2px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size:24px;
+
+}
+
+#AUDIO{
+	text-align :center;
+
+
+}
+
+Table,th, td {
+	border:solid 3px;
+	border-color:#8b752c;
+	color:white;
+}
+
+iframe {
+	border:solid #8b752c 2px ;
+	width:95%;
+	height:500px;
+}
+
+.Img{
+	width:100%;
+	 height:50%;
+}
+
+
