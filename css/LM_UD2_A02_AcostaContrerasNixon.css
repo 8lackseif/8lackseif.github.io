@@ -1,5 +1,13 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+
 body {
-      background-color:black;
+      background-color: whitesmoke;
     }
 	
 
@@ -28,104 +36,64 @@ body {
 	color:#717D7E;
 	font-size:50px;
 }
-
-.ELEMENTO1{
+[class*="ELEMENTO"]{
 	width:80%;
 	text-align:center;
-	border: solid #91260b 2px;
 	margin:auto;
 	margin-bottom: 20px;
 	margin-top: 20px;
-
 }
-
+.ELEMENTO1{
+	border: solid #91260b 2px;
+	background-image: url("../resources/Hutao.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.5;
+	height: 50vh;
+}
 .ELEMENTO2{
-	width:80%;
-	text-align:center;
 	border:solid #0768b8 2px;
-	margin:auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-
 }
 
 .ELEMENTO3{
-	width:80%;
-	text-align:center;
 	border:solid #b97612 2px;
-	margin:auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-
 }
 
 .ELEMENTO4{
-	width:80%;
-	text-align:center;
 	border:solid #4a0650 2px;
-	margin:auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-
 }
 
 .ELEMENTO5{
-	width:80%;
-	text-align:center;
 	border:solid #0db640 2px;
-	margin:auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-
 }
 
 .ELEMENTO6{
-	width:80%;
-	text-align:center;
 	border:solid #519c0b 2px;
-	margin:auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-
 }
 
 .ELEMENTO7{
-	width:80%;
-	text-align:center;
 	border:solid #09dfee 2px;
-	margin:auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-
 }
 
-.ELEMENTO8{
-	width:80%;
-	text-align:center;
-	border:solid #D4AF37 2px;
-	margin:auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-
+.TITULO2,h3{
+	opacity: 1;
 }
-
+#Reacciones{
+	color: rgb(163, 159, 159);
+	border: solid 2px #8b752c;
+	background-color: black;
+}
 
 .celda{
-
-	color: white;
 	text-align:center;
-	
-
 }
 
 .Titulo2{
-
-	color: #717D7E;
+	color: rgb(163, 159, 159);
 	text-align:center;
 	font-family: Bangers, 'Arial Narrow Bold', sans-serif;
 	font-size:40px;
-	
-
 }
 
 #MENU{
@@ -134,6 +102,7 @@ body {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	font-size:24px;
+	background-color: black;
 
 }
 
@@ -150,9 +119,9 @@ Table,th, td {
 }
 
 iframe {
-	border:solid #8b752c 2px ;
 	width:95%;
 	height:500px;
+	margin-top: 2vh;
 }
 
 .Img{
