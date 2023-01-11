@@ -171,3 +171,15 @@ iframe {
 }
 
 
+@media only screen and (min-width:1080px){
+	.navigator{
+		display: block;
+		overflow: visible;
+	}
+
+	nav ul{
+		display: block;
+		overflow: visible;
+	}
+}
+
