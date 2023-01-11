@@ -31,11 +31,6 @@ body {
 	font-size: 30px;
 }
 
-#Letra{
-	font-family: Bangers, 'Arial Narrow Bold', sans-serif;
-	color:#717D7E;
-	font-size:50px;
-}
 [class*="ELEMENTO"]{
 	width:80%;
 	text-align:center;
@@ -45,12 +40,6 @@ body {
 }
 .ELEMENTO1{
 	border: solid #91260b 2px;
-	background-image: url("../resources/Hutao.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	opacity: 0.5;
-	height: 50vh;
 }
 .ELEMENTO2{
 	border:solid #0768b8 2px;
@@ -96,15 +85,51 @@ body {
 	font-size:40px;
 }
 
-#MENU{
-	text-align:center;
-	border:solid rgb(82, 78, 72) 2px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	font-size:24px;
-	background-color: black;
-
+#x{
+	opacity: 0.25;
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	border: 3px solid black;
+	margin: 1vh;
 }
+
+nav, nav ul,nav button{
+    border-radius: 20px;
+	background-color: black;
+}
+nav button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.navigator{
+	display: none;
+    overflow: hidden;
+	max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+nav ul{
+	list-style-type:none;
+    overflow: hidden;
+}
+
+nav ul li{
+	display: block;
+}
+
+
+nav img{
+	width: 100px;
+	height: 100px;
+}
+
+
 
 #AUDIO{
 	text-align :center;
