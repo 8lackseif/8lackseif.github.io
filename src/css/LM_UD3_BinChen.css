@@ -78,7 +78,8 @@ body {
 	color: rgb(163, 159, 159);
 	border: solid 2px #8b752c;
 	background-color: black;
-	margin: 5vh;
+	margin: 5vh 0vw;
+	min-width: 340px;
 }
 
 .Titulo2{

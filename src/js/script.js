@@ -1,4 +1,16 @@
+var w=0;
 
+window.onload=function(){
+	w = window.innerWidth;
+}
+window.onresize = function(){ 
+	if(window.innerWidth!=w-10){
+		location.reload();
+	}
+}
+	
+	
+if(window.innerWidth < 1080){
 	var opacidad2 = 0.25;
 	function opacidad(){
 		if(opacidad2 == 0.25){
@@ -41,3 +53,5 @@
 			}
 		});
 	}
+}
+	
