@@ -28,7 +28,7 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 	font-family: bungee Spice, 'Arial Narrow Bold', 'sans-serif';
-	font-size: 30px;
+	font-size: 2vh;
 }
 
 [class*="ELEMENTO"]{
