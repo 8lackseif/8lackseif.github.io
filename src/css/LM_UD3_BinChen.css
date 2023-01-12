@@ -150,7 +150,8 @@ td{
 iframe {
 	width:90vw;
 	height: 40vh;
-	margin: 2vh 2vw;
+	text-align:center;
+	margin:auto;
 	border-radius: 30px;
 	border: solid black 2px;
 }
@@ -246,7 +247,8 @@ iframe {
 	iframe {
 		width:90vw;
 		height: 80vh;
-		margin: 2vh 2vw;
+		text-align:center;
+		margin:auto;
 		border-radius: 30px;
 		border: solid black 2px;
 	}
