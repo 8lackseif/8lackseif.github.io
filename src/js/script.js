@@ -4,7 +4,10 @@ window.onload=function(){
 	w = window.innerWidth;
 }
 window.onresize = function(){ 
-	if(window.innerWidth >= w + 100 || window.innerWidth <= w - 100){
+	if(w > 1080 && window.innerWidth <= 1080){
+		location.reload();
+	}
+	else if(w <= 1080 && window.innerWidth > 1080){
 		location.reload();
 	}
 }
