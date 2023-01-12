@@ -4,7 +4,7 @@ window.onload=function(){
 	w = window.innerWidth;
 }
 window.onresize = function(){ 
-	if(window.innerWidth >= w + 50 || window.innerWidth <= w - 50){
+	if(window.innerWidth >= w + 100 || window.innerWidth <= w - 100){
 		location.reload();
 	}
 }
