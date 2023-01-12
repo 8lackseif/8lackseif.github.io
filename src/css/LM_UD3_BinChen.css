@@ -7,18 +7,17 @@
 
 body {
       background-color: whitesmoke;
+	  background-image: url(../resources/fondo.webp);
+
     }
 	
 
 #TituloP {
-
-    background-image: url('TT.jpg');
+    background-image: url('../resources/TT.jpg');
 	display:table;
 	width: 100%;
 	height: 300px;
-	margin: 0%;
-	
-
+	margin-bottom: 2vh;
 }
 
 #TituloP1{
@@ -90,11 +89,21 @@ body {
 	margin: 2vh;
 }
 
+#Reacciones .Titulo2{
+	color: rgb(143, 132, 132);
+}
+#Reacciones img{
+	height: 50px;
+	width: 50px;
+}
+
 p{
 	font-size: 2vh 2vw;
 	text-align: justify;
 	margin: 2vh 3vw;
 }
+
+
 
 #x{
 	opacity: 0.25;
@@ -105,10 +114,10 @@ p{
 	margin: 1vh;
 }
 
-nav, nav ul,nav button{
-    border-radius: 20px;
-	background-color: black;
+nav ul li{
+	display: block;
 }
+
 nav button{
 	background: none;
 	color: inherit;
@@ -118,27 +127,7 @@ nav button{
 	cursor: pointer;
 	outline: inherit;
 }
-.navigator{
-	display: none;
-    overflow: hidden;
-	max-height: 0;
-    transition: max-height 0.2s ease-out;
-}
 
-nav ul{
-	list-style-type:none;
-    overflow: hidden;
-}
-
-nav ul li{
-	display: block;
-}
-
-
-nav img{
-	width: 70px;
-	height: 70px;
-}
 
 
 
@@ -160,7 +149,7 @@ td{
 
 iframe {
 	width:90vw;
-	height: 30vh;
+	height: 40vh;
 	margin: 2vh 2vw;
 	border-radius: 30px;
 	border: solid black 2px;
@@ -172,15 +161,94 @@ iframe {
 }
 
 
+
+@media only screen and (max-width:1080px){
+	nav, nav ul,nav button{
+		border-radius: 20px;
+		background-color: black;
+	}
+	
+	nav button{
+		background: none;
+		color: inherit;
+		border: none;
+		padding: 0;
+		font: inherit;
+		cursor: pointer;
+		outline: inherit;
+	}
+	
+	.navigator{
+		display: none;
+		overflow: hidden;
+		max-height: 0;
+		transition: max-height 0.2s ease-out;
+	}
+	
+	nav ul{
+		list-style-type:none;
+		overflow: hidden;
+	}
+
+	nav img{
+		width: 70px;
+		height: 70px;
+	}
+}
+
 @media only screen and (min-width:1080px){
 	.navigator{
 		display: block;
-		overflow: visible;
+	}
+
+	nav,nav ul,nav button{
+		border-radius: 20px;
+		background-color: black;
 	}
 
 	nav ul{
 		display: block;
-		overflow: visible;
+	}
+
+	nav img{
+		width: 80px;
+		height: 80px;
+	}
+	#x:hover{
+		opacity: 1;
+	}
+
+	#TituloP1{
+		color:white ;
+		text-align:center;
+		display: table-cell;
+		vertical-align: middle;
+		font-family: bungee Spice, 'Arial Narrow Bold', 'sans-serif';
+		font-size: 4vh;
+	}
+	.celda{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.celda img,.celda p{
+		width: 40%;
+	}
+	.celda p{
+		align-self: center;
+	}
+	.celda img{
+		margin: 4vh 2vw;
+	}
+	.Titulo2{
+		width: 100%;
+	}
+
+	iframe {
+		width:90vw;
+		height: 80vh;
+		margin: 2vh 2vw;
+		border-radius: 30px;
+		border: solid black 2px;
 	}
 }
 
