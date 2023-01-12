@@ -6,9 +6,8 @@
 }
 
 body {
-      background-color: whitesmoke;
-	  background-image: url(../resources/fondo.webp);
-
+    background-color: whitesmoke;
+	background-image: url(../resources/fondo.webp);
     }
 	
 
@@ -148,10 +147,10 @@ td{
 }
 
 iframe {
-	width:90vw;
+	width:80%;
 	height: 40vh;
-	text-align:center;
-	margin:auto;
+	margin-left: 10%;
+	margin-right: 10%;
 	border-radius: 30px;
 	border: solid black 2px;
 }
@@ -247,10 +246,8 @@ iframe {
 	iframe {
 		width:90vw;
 		height: 80vh;
-		text-align:center;
-		margin:auto;
-		border-radius: 30px;
-		border: solid black 2px;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 
