@@ -16,6 +16,7 @@ body {
 	width: 100%;
 	height: 300px;
 	margin-bottom: 2vh;
+	box-shadow: rgba(0, 0, 0, 0.534) 0px 5px 5px;
 }
 
 #TituloP1{
@@ -33,6 +34,7 @@ body {
 	margin:auto;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	box-shadow: rgba(0, 0, 0, 0.534) 2px 2px 5px;
 }
 .ELEMENTO1{
 	border: solid #91260b 2px;
@@ -162,7 +164,21 @@ iframe {
 	margin: 0;
 }
 
+.top{
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	opacity: 0.25;
+	text-decoration: none;
+}
 
+.top:hover{
+	opacity: 1;
+}
 
 @media only screen and (max-width:1080px){
 	nav, nav ul,nav button{
@@ -191,6 +207,8 @@ iframe {
 		list-style-type:none;
 		overflow: hidden;
 	}
+
+	
 
 }
 
