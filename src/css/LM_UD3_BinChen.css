@@ -6,7 +6,6 @@
 }
 
 body {
-    background-color: whitesmoke;
 	background-image: url(../resources/fondo.webp);
     }
 	
@@ -127,6 +126,9 @@ nav button{
 	outline: inherit;
 }
 
+nav img{
+	height: 10vh;
+}
 
 
 
@@ -190,10 +192,6 @@ iframe {
 		overflow: hidden;
 	}
 
-	nav img{
-		width: 70px;
-		height: 70px;
-	}
 }
 
 @media only screen and (min-width:1080px){
@@ -210,10 +208,6 @@ iframe {
 		display: block;
 	}
 
-	nav img{
-		width: 80px;
-		height: 80px;
-	}
 	#x:hover{
 		opacity: 1;
 	}
