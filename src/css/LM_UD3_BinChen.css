@@ -130,6 +130,7 @@ nav button{
 
 nav img{
 	height: 10vh;
+	border-radius: 20px;
 }
 
 
@@ -173,7 +174,6 @@ iframe {
 	text-align: center;
 	background-color: black;
 	color: white;
-	opacity: 0.25;
 	text-decoration: none;
 	margin: 2vh 2vw;
 	border-radius: 10px;
@@ -267,6 +267,21 @@ iframe {
 		margin-right: 5%;
 	}
 
+	.top{
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 999;
+		width: 5vw;
+		text-align: center;
+		background-color: black;
+		color: white;
+		opacity: 0.5;
+		text-decoration: none;
+		margin: 2vh 2vw;
+		border-radius: 10px;
+		box-shadow: rgba(31, 31, 31, 0.534) 2px 2px 5px;
+	}
 	.top:hover{
 		opacity: 1;
 	}
