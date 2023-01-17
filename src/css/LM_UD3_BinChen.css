@@ -166,19 +166,24 @@ iframe {
 
 .top{
 	position: fixed;
-	bottom: 0;
+	top: 0;
+	right: 0;
 	z-index: 999;
-	width: 100%;
+	width: 5vw;
 	text-align: center;
 	background-color: black;
 	color: white;
 	opacity: 0.25;
 	text-decoration: none;
+	margin: 2vh 2vw;
+	border-radius: 10px;
+	box-shadow: rgba(31, 31, 31, 0.534) 2px 2px 5px;
 }
 
-.top:hover{
-	opacity: 1;
+.opennav{
+	padding-left: 0.3vw;
 }
+
 
 @media only screen and (max-width:1080px){
 	nav, nav ul,nav button{
@@ -260,6 +265,10 @@ iframe {
 		height: 80vh;
 		margin-left: 5%;
 		margin-right: 5%;
+	}
+
+	.top:hover{
+		opacity: 1;
 	}
 }
 
