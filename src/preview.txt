@@ -1,1 +1,4 @@
+Nota: en la preview de github no se porque pero no me funciona los background images del css :)
+
+
 https://htmlpreview.github.io/?https://github.com/8lackseif/LM_UD3_EIndividual_Responsive/blob/main/src/LM_UD3_BinChen.html
