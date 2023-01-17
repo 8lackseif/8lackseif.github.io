@@ -153,11 +153,12 @@ td{
 
 iframe {
 	width:80%;
-	height: 40vh;
+	height: 30vh;
 	margin-left: 10%;
 	margin-right: 10%;
-	border-radius: 30px;
+	border-radius: 20px;
 	border: solid black 2px;
+	margin-bottom: 5vh;
 }
 
 .Img{
@@ -170,12 +171,12 @@ iframe {
 	top: 0;
 	right: 0;
 	z-index: 999;
-	width: 5vw;
 	text-align: center;
 	background-color: black;
 	color: white;
 	text-decoration: none;
 	margin: 2vh 2vw;
+	width: 10vw;
 	border-radius: 10px;
 	box-shadow: rgba(31, 31, 31, 0.534) 2px 2px 5px;
 }
