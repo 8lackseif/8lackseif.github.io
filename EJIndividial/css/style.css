@@ -1,0 +1,226 @@
+/*general--------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: url("../resources/cursor_zanahoria.png"),auto;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("../resources/UDP2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+a{
+    text-decoration: none;
+    color: #7da7c9;
+}
+
+/*Header--------------------------------------------------------------------------*/
+header{
+    position: fixed;
+    top: 0;
+    background: linear-gradient(#788ae69a 0%, #4f77a098 60%, rgba(44, 85, 199, 0.767));
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 1vh;
+}
+
+ul{
+    list-style-type:none;
+    overflow: hidden;
+}
+
+.navegador{
+    float: left;
+}
+
+.navegador a {
+    font-size: large;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1.7vw 1.5vw; 
+}
+
+.navegador:hover{
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+#inicio,#inicio:hover{
+    border-radius: 20px 0px 0px 20px;
+}
+
+/*main----------------------------------------------------------------------------------------------*/
+main{
+    background: linear-gradient(#788ae6 0%, #4f78a0 60%, #13446d 100%);
+    border-radius: 20px;
+    border: 3px solid black;
+    margin: 2vh;
+    margin-left: 22%;
+    margin-right: 22%;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+}
+/*main.html*/
+#titulo{
+    font-size: 20px;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.5), 1px -1px 0 rgba(255, 255, 255, 0.5), -1px 1px 0 rgba(255, 255, 255, 0.5), 1px 1px 0 rgba(255, 255, 255, 0.5);
+    color: rgb(118, 43, 194);
+    border: 3px solid rgb(113, 84, 219);
+    border-radius: 20px;
+    padding: 25%;
+    background-image: url("../resources/titulo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    text-align: justify;
+    padding: 1vw;
+    margin: 5px;
+    font-size: 15px;
+}
+.img{
+    background-image: url(../resources/top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    border-radius: 10px;
+    border: 3px solid rgb(113, 84, 219);
+    margin-bottom:  2vh;
+}
+.descripcion_foto{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#trailer{
+    height: 40vh;
+    width: 40vw;
+    margin: 2vh;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.checkpoint{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3vh 3vw;
+    margin-top: 10vh;
+    font-size: larger;
+    width: 100%;
+    border: 3px solid rgb(113, 84, 219);
+    border-radius: 10px;
+    background: linear-gradient(rgb(69, 87, 189),rgb(64, 74, 168),rgb(77, 66, 141));
+}
+
+#introduccion{
+    margin: 0;
+}
+
+.navi{
+    margin: 20px;
+    color: rgb(56, 45, 148);
+}
+/*personajes*/
+.personaje{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid rgb(113, 84, 219);
+    background: linear-gradient(rgb(69, 87, 189),rgb(64, 74, 168),rgb(77, 66, 141));
+    margin: 20px;
+}
+#tabla_personajes{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+}
+#more{
+    border: solid #788ae6 2px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(69, 87, 189),rgb(64, 74, 168),rgb(77, 66, 141));
+}
+#more:hover{
+    background: rgba(0, 0, 0, 0.144);
+}
+/*videos*/
+#videos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(69, 87, 189),rgb(64, 74, 168),rgb(77, 66, 141));
+    border: 3px solid rgb(113, 84, 219);
+}
+.video{
+    margin: 20px;
+    border-radius: 20px;
+    border: 3px solid rgb(113, 84, 219);
+    height: 20vh;
+    width: 20vw;
+}
+/* footer--------------------------------------------------------------------------------------------*/
+footer{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 10%;
+    border: solid black 3px;
+    background: linear-gradient(rgb(69, 87, 189),rgb(64, 74, 168),rgb(77, 66, 141));
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    font-size: 30px;
+    color: rgb(28, 161, 168);
+    font-style: oblique;
+}
+/*--------------------------------------------------------------------------------------------*/
+.reset1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 10%;
+    background: rgba(0, 0, 0, 0);
+    margin-top: 2vh;
+    display: flex;
+}
+#reset2{
+    background-image: url("../resources/arriba.png");
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 1.8%;
+    padding-left: 1.9%;
+    padding-right: 1.9%;
+}
+
+#reset2:hover{
+    opacity: 1;
+}
