@@ -1,0 +1,184 @@
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+_TIENDA_*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+.wrap {
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.wrap h1 {
+    text-align: center;
+    height: 5%;
+    background-color: var(--sub);
+    border: 3px var(--meld) solid;
+    border-radius: 15px;
+    padding: 2px;
+    font: 5vh 'fuente';
+}
+
+.section {
+    display: flex;
+    height: 95%;
+    overflow: hidden;
+    font-family: 'fuente';
+    margin-top: 2%;
+}
+
+.section1 {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.article {
+    margin: 3px;
+    border: solid var(--meld) 2px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--sub);
+    width: 30%;
+    height: 30%;
+    box-shadow: 0px 0px 5px var(--turq);
+}
+
+.foto {
+    height: 45vh;
+    width: 25vw;
+    float: left;
+    margin: 2vh 3vw;
+    border: solid var(--sub);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px var(--turq);
+    background-color: var(--whi);
+}
+
+
+
+
+.precio {
+    font-family: 'fuente';
+}
+
+h2,
+h3,
+h4 {
+    color: var(--meld);
+    font-family: 'fuente';
+}
+
+a {
+    color: var(--sub);
+    font-family: 'fuente';
+    font-size: 3vh;
+}
+
+.mas {
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 4vh;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.especificaciones {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: var(--bg);
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 1px;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    width: 100%;
+}
+
+.especificaciones p {
+    font: 2vh sans-serif;
+    text-align: justify;
+    margin: 1vh 0.5vw;
+    padding: 2vh 1vw;
+    border: 2px dashed rgba(128, 128, 128, 0.452);
+    border-radius: 20px;
+}
+
+.especificaciones h2{
+    font-size: 4vh;
+}
+
+.active1,
+.mas:hover {
+    background-color: var(--bg);
+}
+
+.active1 {
+    border-radius: 0px;
+}
+
+.color {
+    display: flex;
+    overflow: hidden;
+    margin-top: 2%;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.color1 {
+    border-radius: 50%;
+    align-items: center;
+    background-color: var(--neg);
+    width: 1.2vw;
+    height: 2vh;
+}
+
+.color2 {
+    border: solid var(--meld) 2px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: var(--sub);
+    width: 1.2vw;
+    height: 2vh;
+}
+
+.color3 {
+    border: solid var(--meld) 2px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: var(--turq);
+    width: 1.2vw;
+    height: 2vh;
+
+}
+
+.color1:hover,.color2:hover,.color3:hover{
+    opacity: 0.5;
+}
+
+.compra {
+    padding: 2%;
+    width: 50%;
+    margin: auto;
+}
+
+.compra button {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--sub);
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    box-shadow: 0px 0px 5px var(--turq);
+    font: 3vh 'fuente';
+}
+
+.compra button:hover{
+    background-color: var(--sub);
+    border: solid var(--neg) 2px;
+}

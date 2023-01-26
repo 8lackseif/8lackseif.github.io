@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>contacto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <link rel="icon" type="image/x-icon" href="resources/iCON.png">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/contacto.css" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        <div id="marca">
+        <div class="logo"><a href="index.html"><img src="resources/iCON.png" alt="Logo"></a></div>
+        </div>
+        <nav>
+            <ul>
+                <li class="navegador"><a href="index.html">Home</a></li>
+                <li class="navegador"><a href="tienda.html">Tienda</a></li>
+                <li class="navegador"><a href="VP.html">Virtual Phone</a></li>
+                <li class="navegador"><a  href="contacto.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+        <div id="carrito">
+            <img id="foto_carrito" src="resources/carrito.png" alt="carrito">
+            <div class="productos_carrito">
+                <div class="producto">
+                    <img alt="OnePlus Nord CE 2 Lite 5G" src="resources/OnePlus-Nord-CE-2-Lite-5G.png">
+                    <p>OnePlus Nord CE 2 Lite 5G<br> Precio:<br>259,00€</p>
+                </div>
+                <div class="producto">
+                    <img alt="xiaomimi12" src="resources/xiaomi-mi-12.jpg">
+                    <p> XIAOMI 12 LITE <br> Precio:<br> 449,99€</p>
+                </div>
+                <div class="total"><p>TOTAL : 708,99€</p></div>
+            </div>
+        </div>
+    </header>
+        <main id="contacto">
+          <div class="container">
+              <form action="action_page.php">
+            
+                <label for="fname">Nombre</label>
+                <input type="text" id="fname" name="firstname" placeholder="Nombre">
+            
+                <label for="lname">Apellidos</label>
+                <input type="text" id="lname" name="lastname" placeholder="Apellidos">
+            
+                <label for="country">Comunidad Autónoma</label>
+                <select id="country" name="country">
+                  <option value="Selecciona una Comunidad Autónoma">Comunidad Autónoma</option>
+                  <option value="andalucia">Andalucía</option>
+                  <option value="aragon">Aragón</option>
+                  <option value="asturias">Asturias</option>
+                  <option value="baleares">Baleares</option>
+                  <option value="canarias">Canarias</option>
+                  <option value="cantabria">Cantabria</option>
+                  <option value="castilla_y_leon">Castilla y León</option>
+                  <option value="castilla-la_mancha">Castilla-La Mancha</option>
+                  <option value="cataluña">Cataluña</option>
+                  <option value="comunidad_de_Madrid">Comunidad de Madrid</option>
+                  <option value="comunidad_valenciana">Comunidad Valenciana</option>
+                  <option value="extremadura">Extremadura</option>
+                  <option value="galicia">Galicia</option>
+                  <option value="región_de_murcia">Región de Murcia</option>
+                  <option value="comunidad_foral_de_navarra">Comunidad Foral de Navarra</option>
+                  <option value="pais_vasco">País Vasco</option>
+                  <option value="la_rioja">La Rioja</option>
+                  <option value="ciudad_autonoma_de_ceuta">Ciudad Autónoma de Ceuta</option>
+                  <option value="ciudad_autonoma_de_melilla_de_bin">Ciudad Autónoma de Melilla</option>
+                </select>
+            
+                <label for="subject">¡Comentanos!</label>
+                <textarea id="subject" name="subject" placeholder="¿En que podemos ayudarte?" style="height:200px"></textarea>
+                <br>
+                <br>
+                <a class="envio" href="envio.html">Enviar
+                </a>
+            
+              </form>
+            </div>
+          <div class="info">
+            <h1 class="contacto">¿Quienes somos?</h1>
+          <section>
+            <h3>GRUPO 9</h3>
+            <article>
+              Long Phone es una empresa creada por la colaboracion hispano-chinés de Christian Quezada,
+              Gerardo Magdalena y Bin Chen con el objetivo de brindar al cliente los mejores precios
+              y la mejor asesoria de mobiles del mundo.
+              <ul>
+            <li>La empresa fue fundada en el año 2022 y solo disponia de 3 empleados y una pagina rosa y sin casi contenido, hoy dia es una de las empresas lideres del sector de ventas de dispositivos a nivel mundial.</li>
+            <li>En 2030 Long Phone se alio con el gigante Amazon como principal proveedor de disposivos moviles, en especial los terminales chinos. En 2029 Long phone llego a un acuerdo con china para garantizar un abastecimiento de todos los terminales que long phone disponia.</li>
+            <li>En 2077(Actualidad) Long Phone ha absorvido al gigante Apple y legó la produccion de sus dispositivos a LongPhone inc.</li>
+            <li> 2023 LongPhone puso fin a la guerra de Ucrania ofreciendo al Kremlin una replica virtual del pais Ucraniano.</li>
+              </ul>
+            </article>
+            </section>
+        <br>
+        </div>
+        <br>
+        <div class="info">
+          <h1>¿Donde estamos?</h1>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.846277167228!2d-3.7335903163731774!3d40.41566119742067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422808a0bfc31d%3A0x96e59c625851086b!2sIES%20El%20Lago!5e0!3m2!1ses!2ses!4v1668538353778!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        
+      </main>
+          <footer> 
+            <img id="copyright" src="resources/copyright.jpg" alt="copyright">
+            <p class="quote">Appear weak when you are strong, and strong when you are weak.<br>--Sun Tsu--</p>
+        </footer>
+    </body>
+</html>

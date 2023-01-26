@@ -1,0 +1,145 @@
+/*style Home---------------------------------------------------------------------------------------*/
+#home{
+    border: none;
+}
+.slider{
+   width: 60vw;
+   height: 60vh;
+   margin: auto;
+   margin-top: 5vh;
+   border: 2px solid var(--meld);
+   overflow: hidden;
+   box-shadow: var(--neg) 0px 0px 5px;
+}
+
+.slider iframe{
+    width: 60vw;
+    height: 60vh;
+    border: none;
+}
+.navigator{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 20vh;
+    transform: translate(-50%);
+}
+.navigator .bar{
+    height: 2vh;
+    width: 1vw;
+    border-radius: 100%;
+    background-color: var(--neg);
+    border: 1px solid var(--neg);
+    margin-left: 8px;
+    cursor: pointer;
+}
+.navigator .bar:hover{
+    background-color: aliceblue;
+}
+
+input[type="radio"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    display: flex;
+    height: 100%;
+    width: 500%;
+}
+
+.novedades{
+    width: 20%;
+    transition: 0.4s ease-out;
+}
+
+#slide1:checked ~ .first{
+    margin-left: 0;
+}
+#slide2:checked ~ .first{
+    margin-left: -20%;
+}
+#slide3:checked ~ .first{
+    margin-left: -40%;
+}
+
+
+.topphones{
+    margin: 1vh 2vw;
+    height: 30vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: var(--meld) dashed 3px;
+    border-width: 3px 0px 3px 0px;
+ }
+ .topic{
+    margin-top: 15vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: left;
+ }
+ .titulo{
+    margin-left: 5vw;
+    width: 30%;
+ }
+.vermas{
+    margin-right: 2vw;
+}
+.vermas a{
+    text-decoration: none;
+    color: var(--neg);
+}
+.vermas p{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    border: solid var(--neg) 2px;
+    box-shadow: var(--neg) 0px 0px 5px;
+}
+
+.vermas p:hover{
+    background-color: var(--bg);
+}
+
+.cajita{
+    width: 15vw;
+    height: 25vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    box-shadow: var(--neg) 0px 0px 5px;
+    overflow: hidden;
+    transition: ease-in 0.6s;
+    background-color: white;
+    border: solid var(--meld) 2px;
+    box-sizing: content-box;
+}
+
+.cajita img{
+    width: 15vw;
+    height: 25vh;
+    float: left;
+}
+.cajita p{
+    display: block;
+    opacity: 0;
+    transition: ease-out 0.1s;
+    margin: auto;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.cajita:hover {
+    width: 30vw;
+    height: 25vh;
+    overflow: visible;
+    background-color: var(--sub);
+}
+
+.cajita:hover p{
+    opacity: 1;
+    transition-delay: 0.6s;
+}
+

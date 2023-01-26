@@ -1,0 +1,36 @@
+#virtualphone{
+    height: 70vh;
+}
+
+#virtualphone div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    text-align: center;
+    background-size: 800% 800%;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    animation: rainbow 8s ease infinite;
+    border: 3px dotted rgba(0, 0, 0, 0.486);
+    margin: 5vh 15vw;
+    padding: 3vh 2vw;
+    box-shadow: 0px 0px 10px;
+
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+#virtualphone .working img{
+    height: 40vh;
+    width: 40vw;
+    border-radius: 15px;
+    border: 3px solid black;
+    box-shadow: 0px 0px 10px;
+}
+
